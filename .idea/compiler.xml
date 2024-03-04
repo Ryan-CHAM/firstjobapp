@@ -9,11 +9,15 @@
         <module name="reviewms" />
         <module name="service-reg" />
         <module name="companyms" />
+        <module name="config-server" />
         <module name="jobms" />
+        <module name="gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="companyms" target="17" />
+      <module name="config-server" target="17" />
+      <module name="gateway" target="17" />
       <module name="jobms" target="17" />
       <module name="reviewms" target="17" />
       <module name="service-reg" target="17" />
@@ -22,6 +26,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="companyms" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="gateway" options="-parameters" />
       <module name="jobms" options="-parameters" />
       <module name="reviewms" options="-parameters" />
       <module name="service-reg" options="-parameters" />
