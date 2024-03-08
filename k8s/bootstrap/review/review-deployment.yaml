@@ -20,7 +20,7 @@ spec:
             - containerPort: 8083
           env:
             - name: SPRING_PROFILES_ACTIVE
-              values: k8s
+              value: k8s
       restartPolicy: Always
   selector:
     matchLabels:
